@@ -1,0 +1,109 @@
+body{
+    background-color:rgb(20, 154, 216);
+    text-align: center;
+}
+h1{
+    color:white;
+    text-align: center;
+    font-size: 70px;
+   
+}
+.set{
+    margin: 20% auto;
+}
+.pressed
+{
+    box-shadow: 1px 3px 4px 4px gray;
+    opacity: 0.5;
+
+}
+
+
+.set
+{
+    position: relative;
+    bottom: 10px;
+    background-size: 80px 80px;
+
+}
+.f_drum,.a_drum,.s_drum,.d_drum,.j_drum,.k_drum,.l_drum
+{
+ text-align: center;
+ width:80px;
+ height: 80px;
+color: red;
+font-size: 3rem;
+font-family: 'Courier New', Courier, monospace;
+position: relative;
+bottom: 70px;
+font-weight: 900;
+
+border-radius: 15px;
+}
+.f_drum
+{
+    position: relative;
+    right: 45px;
+
+    background-image:url(MAIN_1.png);
+    background-size: 80px 80px;
+
+}
+.a_drum
+{
+    position: relative;
+    right: 30px;
+    background-image: url(DRUM_4.png);
+    background-size: 80px 80px;
+
+}
+
+.s_drum{
+    position: relative;
+    right: 15px;
+    background-image: url(DRUM_3.jpg);
+    background-size: 80px 80px;
+
+}
+
+.l_drum{
+    position: relative;
+    left: 45px;
+    background-image:url(MAIN_1.png);
+    background-size: 80px 80px;
+
+}
+
+.j_drum{
+    position: relative;
+    left: 15px;
+   background-image: url(DRUM_3.jpg);
+    background-size: 80px 80px;
+
+}
+
+
+
+.k_drum
+{
+    position: relative;
+    left: 30px;
+    background-image: url(DRUM_4.png);
+    background-size: 80px 80px;
+
+}
+
+
+.d_drum
+{
+    background-image:url(MAIN_1.png);
+    background-size: 80px 80px;
+}
+
+.pera{
+    position: relative;
+    bottom: 200px;
+    color: black bold;
+    text-shadow: red;
+}
+
